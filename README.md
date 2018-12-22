@@ -1,7 +1,7 @@
 # kube-wp
 creating a working wordpress blog in k8
 
-##Required:##
+## Required ##
 - Running kubernetes cluster on AWS (SG region)
 - Kubectl installed on local machine which has access to the kubecontrolplan
 - aws-iam-authenticator on local machine, it works by providing temp token in order user can interact to the kube-apiserver on the running kube cluster (controlplane)
