@@ -1,0 +1,5 @@
+KUBE_NAMESPACE=wordpress
+KUBE_NAME=wordpress
+WP_USERNAME=admin
+WP_PASSWD=adminadmin
+DB_PASSWD=adminadmin
