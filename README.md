@@ -27,6 +27,18 @@ execute this command
 ```
 sh spinup.sh
 ```
+output:
+```
+➜  rido-test-kube sh spinup-wp.sh
+“spinning up wordpress”
+E1222 15:35:54.381384   13176 portforward.go:303] error copying from remote stream to local connection: readfrom tcp4 127.0.0.1:52475->127.0.0.1:52478: write tcp4 127.0.0.1:52475->127.0.0.1:52478: write: broken pipe
+wait a sec till ALB is created
+
+Wordpress is ready, visit the page using this link
+
+http://a98789f7c05c411e9abec06118808f8d-1959765982.ap-southeast-1.elb.amazonaws.com
+http://a98789f7c05c411e9abec06118808f8d-1959765982.ap-southeast-1.elb.amazonaws.com/admin
+```
 
 
 ## Scaling up and down ##
